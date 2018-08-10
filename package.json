@@ -17,5 +17,6 @@
     "karma-sourcemap-loader": "^0.3.7",
     "karma-webpack": "^3.0.0",
     "webpack": "^4.16.5"
-  }
+  },
+  "browserslist": "last 2 versions, ie 9"
 }
