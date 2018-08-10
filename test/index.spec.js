@@ -1,8 +1,8 @@
 import { add } from '../src/index'
 
-console.log('Im in')
 describe('My lib', () => {
   it('adds', () => {
+    console.log('Im in')
     expect(add(1, 2)).toBe(3)
   })
 })

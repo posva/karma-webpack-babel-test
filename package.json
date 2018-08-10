@@ -4,6 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.0.0-rc.1",
+    "@babel/preset-env": "^7.0.0-rc.1",
+    "babel-loader": "^8.0.0-beta",
     "jasmine-core": "^3.2.0",
     "karma": "^3.0.0",
     "karma-chrome-launcher": "^2.2.0",
@@ -11,6 +14,7 @@
     "karma-jasmine": "^1.1.2",
     "karma-opera-launcher": "^1.0.0",
     "karma-safari-launcher": "^1.0.0",
+    "karma-sourcemap-loader": "^0.3.7",
     "karma-webpack": "^3.0.0",
     "webpack": "^4.16.5"
   }
