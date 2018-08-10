@@ -1,0 +1,14 @@
+{
+  "name": "karma-project-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "karma": "^3.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-firefox-launcher": "^1.1.0",
+    "karma-jasmine": "^1.1.2",
+    "karma-opera-launcher": "^1.0.0",
+    "karma-safari-launcher": "^1.0.0"
+  }
+}
