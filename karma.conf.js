@@ -3,8 +3,8 @@
 
 const browsers = ['Chrome']
 
-if (process.env.CI) {
-  browsers.push('Firefox', 'Safari')
+if (process.env.CIRCLECI) {
+  browsers = ['Chrome', 'Firefox']
 }
 
 module.exports = function(config) {
