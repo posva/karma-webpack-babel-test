@@ -7,7 +7,7 @@ if (process.env.CIRCLECI) {
   browsers = ['Chrome', 'Firefox']
 } else if (process.env.CI_WINDOWS) {
   browsers = ['IE']
-} else if (process.env.TRAVIS_CI) {
+} else if (process.env.TRAVIS) {
   browsers = ['Safari']
 }
 
