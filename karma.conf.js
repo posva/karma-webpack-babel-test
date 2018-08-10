@@ -1,7 +1,7 @@
 // Karma configuration
 // Generated on Fri Aug 10 2018 16:05:52 GMT+0200 (Central European Summer Time)
 
-const browsers = ['Chrome']
+let browsers = ['Chrome']
 
 if (process.env.CIRCLECI) {
   browsers = ['Chrome', 'Firefox']
