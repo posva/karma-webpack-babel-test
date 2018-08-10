@@ -6,7 +6,7 @@ let browsers = ['Chrome']
 if (process.env.CIRCLECI) {
   browsers = ['Chrome', 'Firefox']
 } else if (process.env.CI_WINDOWS) {
-  browsers = ['IE', 'Chrome', 'Firefox']
+  browsers = ['IE']
 }
 
 module.exports = function(config) {
