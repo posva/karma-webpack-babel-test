@@ -7,6 +7,8 @@ if (process.env.CIRCLECI) {
   browsers = ['Chrome', 'Firefox']
 } else if (process.env.CI_WINDOWS) {
   browsers = ['IE']
+} else if (process.env.TRAVIS_CI) {
+  browsers = ['Safari']
 }
 
 module.exports = function(config) {
