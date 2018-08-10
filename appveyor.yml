@@ -6,8 +6,6 @@ install:
   - yarn --network-timeout 600000
 
 test_script:
-  - env
-  - echo 'console.log(process.env)' | node
   - git --version
   - node --version
   - yarn --version
