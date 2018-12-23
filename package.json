@@ -7,21 +7,19 @@
     "test": "karma start karma.conf.js --single-run"
   },
   "devDependencies": {
-    "@babel/core": "^7.0.0-rc.1",
-    "@babel/preset-env": "^7.0.0-rc.1",
-    "babel-loader": "^8.0.0-beta",
-    "jasmine-core": "^3.2.0",
-    "karma": "^3.0.0",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-loader": "^8.0.4",
+    "jasmine-core": "^3.3.0",
+    "karma": "^3.1.4",
     "karma-chrome-launcher": "^2.2.0",
-    "karma-edge-launcher": "^0.4.2",
     "karma-firefox-launcher": "^1.1.0",
     "karma-ie-launcher": "^1.0.0",
-    "karma-jasmine": "^1.1.2",
-    "karma-opera-launcher": "^1.0.0",
+    "karma-jasmine": "^2.0.1",
     "karma-safari-launcher": "^1.0.0",
     "karma-sourcemap-loader": "^0.3.7",
-    "karma-webpack": "^3.0.0",
-    "webpack": "^4.16.5"
+    "karma-webpack": "^3.0.5",
+    "webpack": "^4.28.2"
   },
   "browserslist": "last 2 versions, ie 9"
 }
