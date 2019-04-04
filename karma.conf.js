@@ -6,7 +6,7 @@ let browsers = ['ChromeHeadless']
 if (process.env.CIRCLECI) {
   browsers = ['Chrome', 'Firefox']
 } else if (process.env.CI_WINDOWS) {
-  browsers = ['IE', 'Edge']
+  browsers = ['IE'] // should also add Edge if it supported on Appveyor
 } else if (process.env.TRAVIS) {
   browsers = ['Safari']
 }
